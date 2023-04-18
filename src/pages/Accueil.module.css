@@ -1,0 +1,22 @@
+.bienvenue {
+  position: absolute;
+  top: 310px;
+  left: 8px;
+  display: inline-block;
+  width: 390px;
+  height: 129px;
+}
+.accueil {
+  position: relative;
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  background-image: url(/public/accueil@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 96px;
+  color: var(--color-antiquewhite);
+  font-family: var(--font-bebas-neue);
+}

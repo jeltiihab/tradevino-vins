@@ -1,0 +1,57 @@
+.image2Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1702px;
+  height: 957px;
+  object-fit: cover;
+}
+.accueil2Child,
+.dcouvrirNotreMenu {
+  position: absolute;
+  left: 26px;
+  width: 334px;
+}
+.accueil2Child {
+  top: 549px;
+  border-radius: 23px;
+  background-color: var(--color-antiquewhite);
+  height: 257px;
+}
+.dcouvrirNotreMenu {
+  top: 603px;
+  letter-spacing: -0.03em;
+  line-height: 97.5%;
+  display: inline-block;
+  height: 129px;
+}
+.accueil2Item {
+  position: absolute;
+  top: 699px;
+  left: 69px;
+  background-color: var(--color-darkslategray);
+  width: 245px;
+  height: 66px;
+  cursor: pointer;
+}
+.leMenu {
+  position: absolute;
+  top: 715px;
+  left: 28px;
+  letter-spacing: -0.03em;
+  line-height: 97.5%;
+  color: var(--color-antiquewhite);
+  display: inline-block;
+  width: 334px;
+  height: 50px;
+}
+.accueil2 {
+  position: relative;
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-bebas-neue);
+}

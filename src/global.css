@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,600;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-bebas-neue: "Bebas Neue";
+  --font-inter: Inter;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-13xl: 32px;
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+  --font-size-mid: 17px;
+  --font-size-17xl: 36px;
+  --font-size-7xs: 6px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-5xs: 8px;
+  --font-size-base: 16px;
+  --font-size-3xl: 22px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-antiquewhite: #ffeedf;
+  --color-darkslategray: #1d5546;
+  --color-white: #fff;
+  --color-brown: #841b1b;
+  --color-black: #000;
+  --color-forestgreen-100: #4f9922;
+  --color-forestgreen-200: #22992e;
+  --color-gray-100: rgba(255, 255, 255, 0);
+  --color-indianred: #9d4949;
+
+  /* border radiuses */
+  --br-10xl: 29px;
+  --br-12xl-5: 31.5px;
+  --br-7xs: 6px;
+  --br-3xs: 10px;
+  --br-21xl: 40px;
+  --br-50xl-5: 69.5px;
+  --br-44xl: 63px;
+  --br-11xl: 30px;
+  --br-231xl: 250px;
+  --br-181xl: 200px;
+  --br-118xl-5: 137.5px;
+  --br-17xl: 36px;
+  --br-44xl-5: 63.5px;
+  --br-47xl: 66px;
+  --br-3xl: 22px;
+  --br-7xl: 26px;
+  --br-13xl: 32px;
+  --br-26xl-5: 45.5px;
+  --br-28xl-5: 47.5px;
+  --br-26xl: 45px;
+  --br-18xl: 37px;
+}

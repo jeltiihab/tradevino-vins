@@ -1,0 +1,222 @@
+.enCeMoment {
+  position: absolute;
+  top: 57px;
+  left: 25px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-antiquewhite);
+  display: inline-block;
+  width: 346px;
+  height: 51px;
+}
+.groupChild {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-antiquewhite);
+}
+.groupChild,
+.rectangleWrapper,
+.thonMiCuit {
+  position: absolute;
+  top: calc(50% - 57.05px);
+  left: calc(50% - 64.52px);
+  width: 129.04px;
+  height: 114.11px;
+}
+.thonMiCuit {
+  top: calc(50% - 33.71px);
+  left: calc(50% - 59.67px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120.3px;
+  height: 70.02px;
+}
+.groupParent {
+  position: absolute;
+  top: calc(50% - 427.5px);
+  left: calc(50% - 134.12px);
+  width: 129.04px;
+  height: 114.11px;
+  cursor: pointer;
+}
+.groupItem {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-antiquewhite);
+}
+.groupItem,
+.petitSal,
+.rectangleContainer {
+  position: absolute;
+  top: calc(50% - 57.05px);
+  left: calc(50% - 64.99px);
+  width: 129.97px;
+  height: 114.11px;
+}
+.petitSal {
+  top: calc(50% - 33.71px);
+  left: calc(50% - 60.1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 121.18px;
+  height: 70.02px;
+}
+.groupContainer {
+  position: absolute;
+  top: calc(50% - 427.5px);
+  left: calc(50% + 18.91px);
+  width: 129.97px;
+  height: 114.11px;
+  cursor: pointer;
+}
+.groupInner {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-antiquewhite);
+}
+.crottinDeChvre,
+.groupInner,
+.rectangleFrame {
+  position: absolute;
+  top: calc(50% - 58.1px);
+  left: calc(50% - 63.12px);
+  width: 126.23px;
+  height: 116.21px;
+}
+.crottinDeChvre {
+  top: calc(50% - 34.33px);
+  left: calc(50% - 58.37px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 117.69px;
+  height: 71.31px;
+}
+.groupDiv,
+.groupParent1,
+.groupParent2,
+.groupParent3 {
+  position: absolute;
+  top: calc(50% - 279.5px);
+  left: calc(50% - 135.2px);
+  width: 126.23px;
+  height: 116.21px;
+  cursor: pointer;
+}
+.groupParent1,
+.groupParent2,
+.groupParent3 {
+  left: calc(50% + 18.8px);
+}
+.groupParent2,
+.groupParent3 {
+  top: calc(50% - 129.5px);
+  left: calc(50% - 135.2px);
+}
+.groupParent3 {
+  top: calc(50% - 128.5px);
+  left: calc(50% + 14.8px);
+}
+.groupParent4,
+.groupParent5,
+.groupParent6,
+.groupParent7,
+.groupParent8 {
+  position: absolute;
+  top: calc(50% + 20.5px);
+  left: calc(50% - 135.2px);
+  width: 126.23px;
+  height: 116.21px;
+  cursor: pointer;
+}
+.groupParent5,
+.groupParent6,
+.groupParent7,
+.groupParent8 {
+  left: calc(50% + 12.8px);
+}
+.groupParent6,
+.groupParent7,
+.groupParent8 {
+  top: calc(50% + 170.5px);
+  left: calc(50% - 139.2px);
+}
+.groupParent7,
+.groupParent8 {
+  top: calc(50% + 171.5px);
+  left: calc(50% + 8.8px);
+}
+.groupParent8 {
+  top: calc(50% + 322.5px);
+  left: calc(50% - 65.2px);
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2 {
+  position: absolute;
+  height: 2.77%;
+  width: 7.95%;
+  top: 94.29%;
+  right: 37.44%;
+  bottom: 2.94%;
+  left: 54.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1,
+.vectorIcon2 {
+  height: 2.34%;
+  width: 7.18%;
+  top: 94.46%;
+  right: 47.18%;
+  bottom: 3.2%;
+  left: 45.64%;
+}
+.vectorIcon2 {
+  height: 2.77%;
+  width: 7.95%;
+  top: 94.29%;
+  right: 56.41%;
+  bottom: 2.94%;
+  left: 35.64%;
+}
+.t,
+.t1,
+.t2 {
+  position: absolute;
+  text-decoration: underline;
+  display: inline-block;
+}
+.t {
+  top: 1091px;
+  left: 139px;
+  font-size: var(--font-size-17xl);
+  color: transparent;
+  width: 31px;
+  height: 30px;
+}
+.t1,
+.t2 {
+  top: 1090px;
+  left: 177px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-100);
+  width: 29px;
+  height: 31px;
+}
+.t2 {
+  top: 1091px;
+  left: 213px;
+  width: 33px;
+  height: 30px;
+}
+.accueil5 {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 1155px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-indianred);
+  font-family: var(--font-bebas-neue);
+}

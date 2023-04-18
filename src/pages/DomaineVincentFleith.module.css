@@ -1,0 +1,145 @@
+.domaineVincentFleithChild {
+  position: absolute;
+  top: 199px;
+  left: 0;
+  border-radius: var(--br-21xl) var(--br-21xl) 0 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 390px;
+  height: 645px;
+}
+.shadowIcon {
+  position: absolute;
+  top: 100px;
+  left: 22px;
+  width: 437px;
+  height: 436px;
+  object-fit: cover;
+  display: none;
+  opacity: 0.7;
+}
+.deLaSouplesse {
+  margin-block-start: 0;
+  margin-block-end: 2px;
+}
+.deLaSouplesseContainer {
+  top: 469px;
+  left: 42px;
+  line-height: 86.1%;
+}
+.alsace,
+.c,
+.deLaSouplesseContainer {
+  position: absolute;
+  display: inline-block;
+  width: 314px;
+  height: 49px;
+}
+.c {
+  top: 539px;
+  left: 42px;
+  font-family: var(--font-roboto);
+}
+.alsace {
+  top: 422px;
+  left: 38px;
+  font-size: var(--font-size-mini);
+  line-height: 86.1%;
+  font-weight: 300;
+}
+.domaineVincentFleithItem {
+  position: absolute;
+  top: 94px;
+  left: 85px;
+  width: 219px;
+  height: 219px;
+}
+.domaineVincentFleithInner {
+  position: absolute;
+  top: 677px;
+  left: 41px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-brown);
+  box-shadow: 0 4px 36px rgba(0, 0, 0, 0.25);
+  width: 313px;
+  height: 66px;
+}
+.retourAuxChoix {
+  position: absolute;
+  top: 677px;
+  left: 42px;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 312px;
+  height: 63px;
+  cursor: pointer;
+}
+.rectangleDiv,
+.retourMenu {
+  position: absolute;
+  top: 769px;
+  height: 43px;
+}
+.rectangleDiv {
+  left: 126px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-antiquewhite);
+  width: 130px;
+}
+.retourMenu {
+  left: 135px;
+  font-size: var(--font-size-mini);
+  font-weight: 600;
+  color: var(--color-brown);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 112px;
+  cursor: pointer;
+}
+.image37Icon {
+  position: absolute;
+  top: 75px;
+  left: 98px;
+  border-radius: 97px;
+  width: 194px;
+  height: 238px;
+  object-fit: cover;
+}
+.domaineVincentFleithChild1 {
+  position: absolute;
+  top: 167px;
+  left: 240px;
+  border-radius: var(--br-12xl-5);
+  background-color: var(--color-forestgreen-200);
+  width: 63px;
+  height: 63px;
+}
+.biodynamie {
+  position: absolute;
+  top: 184px;
+  left: 240px;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 29px;
+}
+.domaineVincentFleith {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

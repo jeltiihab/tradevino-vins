@@ -1,0 +1,163 @@
+.domaineMasDeLibianChild {
+  position: absolute;
+  top: 199px;
+  left: 0;
+  border-radius: var(--br-21xl) var(--br-21xl) 0 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 390px;
+  height: 645px;
+}
+.shadowIcon {
+  position: absolute;
+  top: 100px;
+  left: 22px;
+  width: 437px;
+  height: 436px;
+  object-fit: cover;
+  display: none;
+  opacity: 0.7;
+}
+.uneAttaqueSouple {
+  margin-block-start: 0;
+  margin-block-end: 2px;
+}
+.blankLine {
+  margin: 0;
+}
+.uneAttaqueSoupleContainer {
+  top: 463px;
+  left: 42px;
+  line-height: 86.1%;
+}
+.c,
+.ctesDuRhne,
+.uneAttaqueSoupleContainer {
+  position: absolute;
+  display: inline-block;
+  width: 314px;
+  height: 49px;
+}
+.c {
+  top: 539px;
+  left: 42px;
+  font-family: var(--font-roboto);
+}
+.ctesDuRhne {
+  top: 422px;
+  left: 38px;
+  font-size: var(--font-size-mini);
+  line-height: 86.1%;
+  font-weight: 300;
+}
+.domaineMasDeLibianItem {
+  position: absolute;
+  top: 94px;
+  left: 85px;
+  width: 219px;
+  height: 219px;
+}
+.cuveBoutdzan {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
+.domaineMasDeContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.domaineMasDeContainer {
+  position: absolute;
+  top: 335px;
+  left: 0;
+  font-family: var(--font-bebas-neue);
+  color: var(--color-brown);
+  display: flex;
+  align-items: center;
+  width: 390px;
+  height: 83px;
+  font-size: var(--font-size-13xl);
+}
+.domaineMasDeLibianInner,
+.rectangleDiv {
+  position: absolute;
+  top: 769px;
+  left: 126px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-antiquewhite);
+  width: 130px;
+  height: 43px;
+  cursor: pointer;
+}
+.rectangleDiv {
+  top: 677px;
+  left: 41px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-brown);
+  box-shadow: 0 4px 36px rgba(0, 0, 0, 0.25);
+  width: 313px;
+  height: 66px;
+}
+.retourAuxChoix,
+.retourMenu {
+  position: absolute;
+  top: 677px;
+  left: 42px;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 312px;
+  height: 63px;
+}
+.retourMenu {
+  top: 769px;
+  left: 135px;
+  font-size: var(--font-size-mini);
+  color: var(--color-brown);
+  width: 112px;
+  height: 43px;
+}
+.domaineMasDeLibianChild1 {
+  position: absolute;
+  top: 167px;
+  left: 240px;
+  border-radius: var(--br-12xl-5);
+  background-color: var(--color-forestgreen-200);
+  width: 63px;
+  height: 63px;
+}
+.biodynamie {
+  position: absolute;
+  top: 184px;
+  left: 240px;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 29px;
+}
+.imageRemovebgPreview2Icon {
+  position: absolute;
+  top: 75px;
+  left: 158px;
+  border-radius: 33px;
+  width: 77px;
+  height: 244px;
+  object-fit: cover;
+}
+.domaineMasDeLibian {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
