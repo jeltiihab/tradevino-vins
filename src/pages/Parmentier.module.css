@@ -304,40 +304,41 @@
 }
 .copyVerre,
 .copyVerre1,
-.copyVerre2 {
+.copyVerre2,
+.copyVerre3 {
   position: absolute;
-  top: -10.93px;
-  left: 5.18px;
-  transform: rotate(27.04deg);
+  top: 1.07px;
+  left: 11.18px;
+  transform: rotate(82.04deg);
   transform-origin: 0 0;
 }
 .copyVerre1,
-.copyVerre2 {
-  top: -9.09px;
-  left: 8.64px;
-  transform: rotate(35.39deg);
+.copyVerre2,
+.copyVerre3 {
+  top: 4.91px;
+  left: 10.64px;
+  transform: rotate(87.39deg);
 }
-.copyVerre2 {
-  top: -6.75px;
-  left: 11.81px;
-  transform: rotate(43.84deg);
+.copyVerre2,
+.copyVerre3 {
+  top: 8.25px;
+  left: 9.81px;
+  transform: rotate(86.84deg);
 }
-.copyVerre3,
+.copyVerre3 {
+  top: 12.05px;
+      left: 7.62px;
+      transform: rotate(95.36deg);
+}
 .copyVerre4,
+.copyVerreGroup,
 .copyVerreParent {
   position: absolute;
-  top: -3.95px;
-  left: 14.62px;
-  transform: rotate(52.36deg);
+  top: 15.21px;
+  left: 5.97px;
+  transform: rotate(96.76deg);
   transform-origin: 0 0;
-}
-.copyVerre4,
-.copyVerreParent {
-  top: -0.79px;
-  left: 16.97px;
-  transform: rotate(60.76deg);
-}
-.copyVerreParent {
+}.copyVerreParent {
   top: 147.12px;
   left: 206.92px;
   width: 12.09px;

@@ -12,7 +12,7 @@ const Accueil = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       navigate('/accueil-2');
-    }, 3000);
+    }, 1500);
     return () => clearTimeout(timer);
   }, [navigate]);
 
