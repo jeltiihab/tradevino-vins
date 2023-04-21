@@ -27,6 +27,27 @@
   left: 42px;
   line-height: 86.1%;
 }
+.domaineTatin2020CuveContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.domaineTatin2020CuveContainer {
+  position: absolute;
+  top: 333px;
+  left: 0;
+  font-family: var(--font-bebas-neue);
+  color: var(--color-brown);
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  width: 390px;
+  height: 83px;
+  font-size: var(--font-size-13xl);
+}
+.cuveLaCommanderie {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
 .alsace,
 .c,
 .deLaSouplesseContainer {
