@@ -19,16 +19,16 @@ const ChateauLagrange22 = () => {
       <img className={styles.shadowIcon} alt='' src='/shadow@2x.png' />
       <div
         className={styles.chateauLagrange22Item}
-        onClick={onRectangle1Click}
+        onClick={onRectangle2Click}
       />
       <div
         className={styles.chateauLagrange22Inner}
-        onClick={onRectangle2Click}
+        onClick={onRectangle1Click}
       />
-      <div className={styles.retourAuxChoix} onClick={onRectangle1Click}>
+      <div className={styles.retourAuxChoix} onClick={onRectangle2Click}>
         Retour aux choix des vins
       </div>
-      <div className={styles.retourMenu} onClick={onRectangle2Click}>
+      <div className={styles_btn.retourMenu} onClick={onRectangle1Click}>
         Retour menu
       </div>
       <i className={styles.prsenteEnBoucheContainer}>

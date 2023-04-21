@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import styles from './CoteauxDesGirondales22.module.css';
+import styles from './CoteauxDesGirondales1.module.css';
 
 const CoteauxDesGirondales22 = () => {
   const navigate = useNavigate();
@@ -15,19 +15,33 @@ const CoteauxDesGirondales22 = () => {
   }, [navigate]);
 
   return (
-    <div className={styles.coteauxDesGirondales22}>
-      <div className={styles.coteauxDesGirondales22Child} />
+    <div className={styles.coteauxDesGirondales}>
+      <div className={styles.coteauxDesGirondalesChild} />
       <img className={styles.shadowIcon} alt='' src='/shadow@2x.png' />
+      <img
+        className={styles.coteauxDesGirondalesItem}
+        alt=''
+        src='/ellipse-292.svg'
+      />
+      <div
+        className={styles.coteauxDesGirondalesInner}
+        onClick={onRectangle1Click}
+      />
+      <div className={styles.retourAuxChoix} onClick={onRectangle1Click}>
+        Retour aux choix des vins
+      </div>
+      <div className={styles.rectangleDiv} />
+      <div className={styles.retourMenu} onClick={onRectangleButtonClick}>
+        Retour menu
+      </div>
+      <img className={styles.image31Icon} alt='' src='/image-311@2x.png' />
+      <div className={styles.coteauxDesGirondalesChild1} />
+      <div className={styles.biologique}>Biologique</div>
       <i className={styles.surLeFruit}>
         Sur le fruit à noyau, belle rondeur en bouche, un vin très équilibré
       </i>
       <i className={styles.c}>10,5 °C</i>
-      <i className={styles.hauteSavoie}>Haute Savoie</i>
-      <img
-        className={styles.coteauxDesGirondales22Item}
-        alt=''
-        src='/ellipse-292.svg'
-      />
+      <i className={styles.hauteSavoie}>Haute-Savoie</i>
       <div className={styles.coteauxDesGirondales2022Container}>
         <span className={styles.coteauxDesGirondales2022Container1}>
           <p className={styles.coteauxDesGirondales2022}>
@@ -36,17 +50,6 @@ const CoteauxDesGirondales22 = () => {
           <p className={styles.cuveCeuxDaprs}>{`Cuvée Ceux d’après...  `}</p>
         </span>
       </div>
-
-      <div className={styles.rectangleDiv} />
-      <div className={styles.retourAuxChoix} onClick={onRectangle1Click}>
-        Retour aux choix des vins
-      </div>
-      <div className={styles.retourMenu} onClick={onRectangleButtonClick}>
-        Retour menu
-      </div>
-      <img className={styles.image26Icon} alt='' src='/image-262@2x.png' />
-      <div className={styles.coteauxDesGirondales22Child1} />
-      <div className={styles.biologique}>Biologique</div>
     </div>
   );
 };

@@ -26,9 +26,7 @@ const CoteauxDesGirondales1 = () => {
         className={styles.coteauxDesGirondalesInner}
         onClick={onRectangle1Click}
       />
-      <div className={styles.retourAuxChoix} onClick={onRectangle1Click}>
-        Retour aux choix des vins
-      </div>
+      <div className={styles.retourAuxChoix}>Retour aux choix des vins</div>
       <div className={styles.rectangleDiv} />
       <div className={styles.retourMenu} onClick={onRetourMenuTextClick}>
         Retour menu
