@@ -20,7 +20,6 @@ const DomaineVincentFleith = () => {
       <i className={styles.domaineTatin2020CuveContainer}>
         DOMAINE Vincent Fleith | 2019 Cuvée Letzenberg
       </i>
-      <p className={styles.cuveLaCommanderie}>{`Cuvée La Commanderie  `}</p>
       <i className={styles.deLaSouplesseContainer}>
         <p className={styles.deLaSouplesse}>
           De la souplesse, des tanins soyeux, de la fraîcheur et surtout une
