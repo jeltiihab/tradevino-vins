@@ -23,12 +23,12 @@ const ChateauLagrange22 = () => {
       />
       <div
         className={styles.chateauLagrange22Inner}
-        onClick={onRectangle1Click}
+        onClick={onRectangle2Click}
       />
       <div className={styles.retourAuxChoix} onClick={onRectangle2Click}>
         Retour aux choix des vins
       </div>
-      <div className={styles_btn.retourMenu} onClick={onRectangle1Click}>
+      <div className={styles.retourMenu} onClick={onRectangle1Click}>
         Retour menu
       </div>
       <i className={styles.prsenteEnBoucheContainer}>
