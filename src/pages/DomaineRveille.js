@@ -1,29 +1,31 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./DomaineRveille.module.css";
+import { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './DomaineRveille.module.css';
 
 const DomaineRveille = () => {
   const navigate = useNavigate();
 
   const onRectangle1Click = useCallback(() => {
-    navigate("/parmentier");
+    navigate('/parmentier');
   }, [navigate]);
 
   const onRetourMenuTextClick = useCallback(() => {
-    navigate("/accueil-3");
+    navigate('/accueil-3');
   }, [navigate]);
 
   return (
     <div className={styles.domaineRveille}>
       <div className={styles.domaineRveilleChild} />
-      <img className={styles.shadowIcon} alt="" src="/shadow@2x.png" />
+      <img className={styles.shadowIcon} alt='' src='/shadow@2x.png' />
       <img
         className={styles.domaineRveilleItem}
-        alt=""
-        src="/ellipse-292.svg"
+        alt=''
+        src='/ellipse-292.svg'
       />
       <div className={styles.domaineRveilleInner} onClick={onRectangle1Click} />
-      <div className={styles.retourAuxChoix}>Retour aux choix des vins</div>
+      <div className={styles.retourAuxChoix} onClick={onRectangle1Click}>
+        Retour aux choix des vins
+      </div>
       <div className={styles.rectangleDiv} />
       <div className={styles.retourMenu} onClick={onRetourMenuTextClick}>
         Retour menu
@@ -44,8 +46,8 @@ const DomaineRveille = () => {
       </div>
       <div className={styles.domaineRveilleChild1} />
       <div className={styles.naturel}>Naturel</div>
-      <img className={styles.subtractIcon} alt="" src="/subtract@2x.png" />
-      <img className={styles.image19Icon} alt="" src="/image-192@2x.png" />
+      <img className={styles.subtractIcon} alt='' src='/subtract@2x.png' />
+      <img className={styles.image19Icon} alt='' src='/image-192@2x.png' />
     </div>
   );
 };

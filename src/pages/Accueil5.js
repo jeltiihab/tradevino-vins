@@ -1,52 +1,56 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./Accueil5.module.css";
+import { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './Accueil5.module.css';
 
 const Accueil5 = () => {
   const navigate = useNavigate();
 
   const onGroupContainer1Click = useCallback(() => {
-    navigate("/thon-micuit");
+    navigate('/thon-micuit');
   }, [navigate]);
 
   const onGroupContainer3Click = useCallback(() => {
-    navigate("/petitsal");
+    navigate('/petitsal');
   }, [navigate]);
 
   const onGroupContainer5Click = useCallback(() => {
-    navigate("/crottin-de-chvre");
+    navigate('/crottin-de-chvre');
   }, [navigate]);
 
   const onGroupContainer7Click = useCallback(() => {
-    navigate("/entrecte");
+    navigate('/entrecte');
   }, [navigate]);
 
   const onGroupContainer9Click = useCallback(() => {
-    navigate("/tagliatelles");
+    navigate('/tagliatelles');
   }, [navigate]);
 
   const onGroupContainer11Click = useCallback(() => {
-    navigate("/parmentier");
+    navigate('/parmentier');
   }, [navigate]);
 
   const onGroupContainer13Click = useCallback(() => {
-    navigate("/suprme-de-poulet");
+    navigate('/suprme-de-poulet');
   }, [navigate]);
 
   const onGroupContainer15Click = useCallback(() => {
-    navigate("/boudin-noir");
+    navigate('/boudin-noir');
   }, [navigate]);
 
   const onGroupContainer17Click = useCallback(() => {
-    navigate("/camembert-rti");
+    navigate('/camembert-rti');
   }, [navigate]);
 
   const onGroupContainer19Click = useCallback(() => {
-    navigate("/bavette");
+    navigate('/bavette');
   }, [navigate]);
 
   const onGroupContainer21Click = useCallback(() => {
-    navigate("/cordon-bleu");
+    navigate('/cordon-bleu');
+  }, [navigate]);
+
+  const instagramClick = useCallback(() => {
+    navigate('https://www.instagram.com/tradevino_fr/');
   }, [navigate]);
 
   return (
@@ -118,26 +122,30 @@ const Accueil5 = () => {
         </div>
         <div className={styles.crottinDeChvre}>cordon bleu</div>
       </div>
-      <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-      <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
-      <img className={styles.vectorIcon2} alt="" src="/vector2.svg" />
-      <a
-        className={styles.t}
-        href="https://www.instagram.com/tradevino_fr/"
-        target="_blank"
-      >
-        t
-      </a>
-      <a
-        className={styles.t1}
-        href="https://www.linkedin.com/company/tradevino/"
-        target="_blank"
-      >
-        T
-      </a>
-      <a className={styles.t2} href="https://www.tradevino.fr" target="_blank">
-        T
-      </a>
+      <img
+        className={styles.vectorIcon}
+        onClick={() => {
+          window.location.href = 'https://www.tradevino.fr';
+        }}
+        alt=''
+        src='/vector.svg'
+      />
+      <img
+        className={styles.vectorIcon1}
+        onClick={() => {
+          window.location.href = 'https://www.linkedin.com/company/tradevino/';
+        }}
+        alt=''
+        src='/vector1.svg'
+      />
+      <img
+        className={styles.vectorIcon2}
+        onClick={() => {
+          window.location.href = 'https://www.instagram.com/tradevino_fr/';
+        }}
+        alt=''
+        src='/vector2.svg'
+      />
     </div>
   );
 };

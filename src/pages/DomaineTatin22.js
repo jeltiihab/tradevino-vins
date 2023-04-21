@@ -1,29 +1,31 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./DomaineTatin22.module.css";
+import { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './DomaineTatin22.module.css';
 
 const DomaineTatin22 = () => {
   const navigate = useNavigate();
 
   const onRectangle1Click = useCallback(() => {
-    navigate("/cordon-bleu");
+    navigate('/cordon-bleu');
   }, [navigate]);
 
   const onRetourMenuTextClick = useCallback(() => {
-    navigate("/accueil-3");
+    navigate('/accueil-3');
   }, [navigate]);
 
   return (
     <div className={styles.domaineTatin22}>
       <div className={styles.domaineTatin22Child} />
-      <img className={styles.shadowIcon} alt="" src="/shadow@2x.png" />
+      <img className={styles.shadowIcon} alt='' src='/shadow@2x.png' />
       <img
         className={styles.domaineTatin22Item}
-        alt=""
-        src="/ellipse-292.svg"
+        alt=''
+        src='/ellipse-292.svg'
       />
       <div className={styles.domaineTatin22Inner} onClick={onRectangle1Click} />
-      <div className={styles.retourAuxChoix}>Retour aux choix des vins</div>
+      <div className={styles.retourAuxChoix} onClick={onRectangle1Click}>
+        Retour aux choix des vins
+      </div>
       <div className={styles.rectangleDiv} />
       <div className={styles.retourMenu} onClick={onRetourMenuTextClick}>
         Retour menu
@@ -44,7 +46,7 @@ const DomaineTatin22 = () => {
       </div>
       <div className={styles.domaineTatin22Child1} />
       <div className={styles.biologique}>Biologique</div>
-      <img className={styles.image17Icon} alt="" src="/image-172@2x.png" />
+      <img className={styles.image17Icon} alt='' src='/image-172@2x.png' />
     </div>
   );
 };

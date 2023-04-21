@@ -1,22 +1,22 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./HeritageDuPic20.module.css";
+import { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './HeritageDuPic20.module.css';
 
 const HeritageDuPic20 = () => {
   const navigate = useNavigate();
 
   const onRectangle1Click = useCallback(() => {
-    navigate("/accueil-3");
+    navigate('/accueil-3');
   }, [navigate]);
 
   const onRectangle2Click = useCallback(() => {
-    navigate("/petitsal");
+    navigate('/petitsal');
   }, [navigate]);
 
   return (
     <div className={styles.heritageDuPic20}>
       <div className={styles.heritageDuPic20Child} />
-      <img className={styles.shadowIcon} alt="" src="/shadow@2x.png" />
+      <img className={styles.shadowIcon} alt='' src='/shadow@2x.png' />
       <i className={styles.uneLgendeUnContainer}>
         <p className={styles.uneLgendeUn}>
           Une légende, un vin profond sur des notes de garrigues, fruits rouges,
@@ -29,23 +29,27 @@ const HeritageDuPic20 = () => {
       <i className={styles.languedoc}>Languedoc</i>
       <img
         className={styles.heritageDuPic20Item}
-        alt=""
-        src="/ellipse-292.svg"
+        alt=''
+        src='/ellipse-292.svg'
       />
       <div
         className={styles.heritageDuPic20Inner}
         onClick={onRectangle1Click}
       />
       <div className={styles.rectangleDiv} onClick={onRectangle2Click} />
-      <div className={styles.retourAuxChoix}>Retour aux choix des vins</div>
-      <div className={styles.retourMenu}>Retour menu</div>
+      <div className={styles.retourAuxChoix} onClick={onRectangle2Click}>
+        Retour aux choix des vins
+      </div>
+      <div className={styles.retourMenu} onClick={onRectangle1Click}>
+        Retour menu
+      </div>
       <div className={styles.hritageDuPic2020Container}>
         <span className={styles.hritageDuPic2020Container1}>
           <p className={styles.uneLgendeUn}>héritage du pic|2020</p>
           <p className={styles.cuveGuilhemGaucelm}>Cuvée guilhem gaucelm</p>
         </span>
       </div>
-      <img className={styles.image37Icon} alt="" src="/image-372@2x.png" />
+      <img className={styles.image37Icon} alt='' src='/image-372@2x.png' />
       <div className={styles.heritageDuPic20Child1} />
       <div className={styles.biologique}>Biologique</div>
     </div>

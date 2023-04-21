@@ -1,22 +1,22 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./DomaineMasDeLibian.module.css";
+import { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './DomaineMasDeLibian.module.css';
 
 const DomaineMasDeLibian = () => {
   const navigate = useNavigate();
 
   const onRectangle1Click = useCallback(() => {
-    navigate("/accueil-3");
+    navigate('/accueil-3');
   }, [navigate]);
 
   const onRectangle2Click = useCallback(() => {
-    navigate("/entrecte");
+    navigate('/entrecte');
   }, [navigate]);
 
   return (
     <div className={styles.domaineMasDeLibian}>
       <div className={styles.domaineMasDeLibianChild} />
-      <img className={styles.shadowIcon} alt="" src="/shadow@2x.png" />
+      <img className={styles.shadowIcon} alt='' src='/shadow@2x.png' />
       <i className={styles.uneAttaqueSoupleContainer}>
         <p className={styles.uneAttaqueSouple}>
           Une attaque souple et soyeuse, de la matière, le Rhône Méridional mis
@@ -28,8 +28,8 @@ const DomaineMasDeLibian = () => {
       <i className={styles.ctesDuRhne}>Côtes du Rhône</i>
       <img
         className={styles.domaineMasDeLibianItem}
-        alt=""
-        src="/ellipse-292.svg"
+        alt=''
+        src='/ellipse-292.svg'
       />
       <div className={styles.domaineMasDeContainer}>
         <span className={styles.domaineMasDeContainer1}>
@@ -42,14 +42,18 @@ const DomaineMasDeLibian = () => {
         onClick={onRectangle1Click}
       />
       <div className={styles.rectangleDiv} onClick={onRectangle2Click} />
-      <div className={styles.retourAuxChoix}>Retour aux choix des vins</div>
-      <div className={styles.retourMenu}>Retour menu</div>
+      <div className={styles.retourAuxChoix} onClick={onRectangle2Click}>
+        Retour aux choix des vins
+      </div>
+      <div className={styles.retourMenu} onClick={onRectangle1Click}>
+        Retour menu
+      </div>
       <div className={styles.domaineMasDeLibianChild1} />
       <div className={styles.biodynamie}>Biodynamie</div>
       <img
         className={styles.imageRemovebgPreview2Icon}
-        alt=""
-        src="/imageremovebgpreview-21@2x.png"
+        alt=''
+        src='/imageremovebgpreview-21@2x.png'
       />
     </div>
   );

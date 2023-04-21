@@ -1,22 +1,22 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./DomaineRveille1.module.css";
+import { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './DomaineRveille1.module.css';
 
 const DomaineRveille1 = () => {
   const navigate = useNavigate();
 
   const onRectangle1Click = useCallback(() => {
-    navigate("/accueil-3");
+    navigate('/accueil-3');
   }, [navigate]);
 
   const onRectangle2Click = useCallback(() => {
-    navigate("/entrecte");
+    navigate('/entrecte');
   }, [navigate]);
 
   return (
     <div className={styles.domaineRveille}>
       <div className={styles.domaineRveilleChild} />
-      <img className={styles.shadowIcon} alt="" src="/shadow@2x.png" />
+      <img className={styles.shadowIcon} alt='' src='/shadow@2x.png' />
       <i className={styles.unVinSolaireContainer}>
         <p className={styles.unVinSolaire}>
           Un vin solaire, intense et sans artifice. La matière est vive, la
@@ -27,8 +27,8 @@ const DomaineRveille1 = () => {
       <i className={styles.ctesDuRoussillon}>Côtes-du-Roussillon</i>
       <img
         className={styles.domaineRveilleItem}
-        alt=""
-        src="/ellipse-292.svg"
+        alt=''
+        src='/ellipse-292.svg'
       />
       <div className={styles.domaineRveille2014CuveContainer}>
         <span className={styles.domaineRveille2014CuveContainer1}>
@@ -38,10 +38,14 @@ const DomaineRveille1 = () => {
       </div>
       <div className={styles.domaineRveilleInner} onClick={onRectangle1Click} />
       <div className={styles.rectangleDiv} onClick={onRectangle2Click} />
-      <div className={styles.retourAuxChoix}>Retour aux choix des vins</div>
-      <div className={styles.retourMenu}>Retour menu</div>
-      <img className={styles.subtractIcon} alt="" src="/subtract@2x.png" />
-      <img className={styles.image19Icon} alt="" src="/image-192@2x.png" />
+      <div className={styles.retourAuxChoix} onClick={onRectangle2Click}>
+        Retour aux choix des vins
+      </div>
+      <div className={styles.retourMenu} onClick={onRectangle1Click}>
+        Retour menu
+      </div>
+      <img className={styles.subtractIcon} alt='' src='/subtract@2x.png' />
+      <img className={styles.image19Icon} alt='' src='/image-192@2x.png' />
     </div>
   );
 };

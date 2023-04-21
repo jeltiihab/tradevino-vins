@@ -1,22 +1,22 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./DomaineCombelLaSerre22.module.css";
+import { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './DomaineCombelLaSerre22.module.css';
 
 const DomaineCombelLaSerre22 = () => {
   const navigate = useNavigate();
 
   const onRectangle1Click = useCallback(() => {
-    navigate("/accueil-3");
+    navigate('/accueil-3');
   }, [navigate]);
 
   const onRectangle2Click = useCallback(() => {
-    navigate("/petitsal");
+    navigate('/petitsal');
   }, [navigate]);
 
   return (
     <div className={styles.domaineCombelLaSerre22}>
       <div className={styles.domaineCombelLaSerre22Child} />
-      <img className={styles.shadowIcon} alt="" src="/shadow@2x.png" />
+      <img className={styles.shadowIcon} alt='' src='/shadow@2x.png' />
       <i className={styles.alerteAuxFruitsContainer}>
         <p className={styles.alerteAuxFruits}>
           Alerte aux fruits ! Une cerise noire en totem c’est un vin riche et
@@ -29,8 +29,8 @@ const DomaineCombelLaSerre22 = () => {
       <i className={styles.cahors}>Cahors</i>
       <img
         className={styles.domaineCombelLaSerre22Item}
-        alt=""
-        src="/ellipse-292.svg"
+        alt=''
+        src='/ellipse-292.svg'
       />
       <div className={styles.domaineCombelLaContainer}>
         <span className={styles.domaineCombelLaContainer1}>
@@ -43,9 +43,13 @@ const DomaineCombelLaSerre22 = () => {
         onClick={onRectangle1Click}
       />
       <div className={styles.rectangleDiv} onClick={onRectangle2Click} />
-      <div className={styles.retourAuxChoix}>Retour aux choix des vins</div>
-      <div className={styles.retourMenu}>Retour menu</div>
-      <img className={styles.image35Icon} alt="" src="/image-353@2x.png" />
+      <div className={styles.retourAuxChoix} onClick={onRectangle2Click}>
+        Retour aux choix des vins
+      </div>
+      <div className={styles.retourMenu} onClick={onRectangle1Click}>
+        Retour menu
+      </div>
+      <img className={styles.image35Icon} alt='' src='/image-353@2x.png' />
       <div className={styles.domaineCombelLaSerre22Child1} />
       <div className={styles.biologique}>Biologique</div>
     </div>

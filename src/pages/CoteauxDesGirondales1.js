@@ -1,37 +1,39 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./CoteauxDesGirondales1.module.css";
+import { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './CoteauxDesGirondales1.module.css';
 
 const CoteauxDesGirondales1 = () => {
   const navigate = useNavigate();
 
   const onRectangle1Click = useCallback(() => {
-    navigate("/camembert-rti");
+    navigate('/camembert-rti');
   }, [navigate]);
 
   const onRetourMenuTextClick = useCallback(() => {
-    navigate("/accueil-3");
+    navigate('/accueil-3');
   }, [navigate]);
 
   return (
     <div className={styles.coteauxDesGirondales}>
       <div className={styles.coteauxDesGirondalesChild} />
-      <img className={styles.shadowIcon} alt="" src="/shadow@2x.png" />
+      <img className={styles.shadowIcon} alt='' src='/shadow@2x.png' />
       <img
         className={styles.coteauxDesGirondalesItem}
-        alt=""
-        src="/ellipse-292.svg"
+        alt=''
+        src='/ellipse-292.svg'
       />
       <div
         className={styles.coteauxDesGirondalesInner}
         onClick={onRectangle1Click}
       />
-      <div className={styles.retourAuxChoix}>Retour aux choix des vins</div>
+      <div className={styles.retourAuxChoix} onClick={onRectangle1Click}>
+        Retour aux choix des vins
+      </div>
       <div className={styles.rectangleDiv} />
       <div className={styles.retourMenu} onClick={onRetourMenuTextClick}>
         Retour menu
       </div>
-      <img className={styles.image31Icon} alt="" src="/image-311@2x.png" />
+      <img className={styles.image31Icon} alt='' src='/image-311@2x.png' />
       <div className={styles.coteauxDesGirondalesChild1} />
       <div className={styles.biologique}>Biologique</div>
       <i className={styles.surLeFruit}>

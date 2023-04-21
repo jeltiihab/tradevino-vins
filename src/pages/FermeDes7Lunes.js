@@ -1,22 +1,22 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./FermeDes7Lunes.module.css";
+import { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './FermeDes7Lunes.module.css';
 
 const FermeDes7Lunes = () => {
   const navigate = useNavigate();
 
   const onRectangle1Click = useCallback(() => {
-    navigate("/bavette");
+    navigate('/bavette');
   }, [navigate]);
 
   const onRetourMenuTextClick = useCallback(() => {
-    navigate("/accueil-3");
+    navigate('/accueil-3');
   }, [navigate]);
 
   return (
     <div className={styles.fermeDes7Lunes}>
       <div className={styles.fermeDes7LunesChild} />
-      <img className={styles.shadowIcon} alt="" src="/shadow@2x.png" />
+      <img className={styles.shadowIcon} alt='' src='/shadow@2x.png' />
       <i className={styles.grosCanonAvecContainer}>
         <p className={styles.grosCanonAvec}>
           Gros canon avec de l’épices, des notes torréfiées et de sous-bois. Une
@@ -29,16 +29,18 @@ const FermeDes7Lunes = () => {
       <i className={styles.saintJoseph}>Saint-Joseph</i>
       <img
         className={styles.fermeDes7LunesItem}
-        alt=""
-        src="/ellipse-292.svg"
+        alt=''
+        src='/ellipse-292.svg'
       />
       <div className={styles.fermeDes7LunesInner} onClick={onRectangle1Click} />
-      <div className={styles.retourAuxChoix}>Retour aux choix des vins</div>
+      <div className={styles.retourAuxChoix} onClick={onRectangle1Click}>
+        Retour aux choix des vins
+      </div>
       <div className={styles.rectangleDiv} />
       <div className={styles.retourMenu} onClick={onRetourMenuTextClick}>
         Retour menu
       </div>
-      <img className={styles.image33Icon} alt="" src="/image-332@2x.png" />
+      <img className={styles.image33Icon} alt='' src='/image-332@2x.png' />
       <div className={styles.fermeDes7Container}>
         <span className={styles.fermeDes7Container1}>
           <p className={styles.grosCanonAvec}>ferme des 7 lunes|2018</p>
